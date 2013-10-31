@@ -45,6 +45,26 @@ bernt.down()
 bernt.name = "Bernt"
 turtles.append(bernt)
 
+ada = turtle.Turtle()
+ada.color('pink')
+ada.shape('turtle')
+ada.up()
+ada.speed(10)
+ada.goto(-290,-160)
+ada.down()
+ada.name = "Ada"
+turtles.append(ada)
+
+herbert = turtle.Turtle()
+herbert.color('yellow')
+herbert.shape('turtle')
+herbert.up()
+herbert.speed(10)
+herbert.goto(-290,0)
+herbert.down()
+herbert.name = "Herbert"
+turtles.append(herbert)
+
 #for t in turtles:
 #	print t.name
 
@@ -91,7 +111,7 @@ for t in turtles:
 #winner = list()
 
 #def tie():
-#	for p in position:
+#	for p in position:         
 #		if winner == p:
 #			return True
 	# om antalet turtlar som har vinnarpositionen är fler än en
