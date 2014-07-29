@@ -11,9 +11,22 @@ import time
 wn = turtle.Screen()
 wn.bgcolor('black')
 
-# Jag vill om möjligt skapa turtlarna utifrån en matris
+# Jag vill om möjligt skapa turtlarna utifrån en matris/array
+
+competingturtles = list()
+
+color = ['red', 'blue', 'green'] #Går det att sätta randomiserade färger??
+yvalue = [0, -40, -80]
+turtlename = ['Lance', 'Andy', 'Bernt']
 
 turtles = list()
+
+
+for n in competingturtles:
+	n = 
+	turtles.append()
+	
+
 
 lance = turtle.Turtle()
 lance.color('red')
@@ -103,6 +116,10 @@ print " "
 
 winner = max(position)
 
+
+# Förstora den vinnande turtlen
+# Printa vem som vann
+
 for t in turtles:
 	if winner == t.xcor():
 		print "And the winner is " + t.name + "!!!!!!"
@@ -128,8 +145,6 @@ for t in turtles:
 
 
 
-# Förstora den vinnande turtlen
-# Printa vem som vann
 
+time.sleep(4)
 
-time.sleep(2)
